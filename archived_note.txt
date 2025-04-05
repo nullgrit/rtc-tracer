@@ -1,0 +1,5 @@
+This tool was actively used in 2020 for diagnosing WebRTC connectivity issues,
+mostly in internal QA workflows. Later superseded by browser-integrated tools.
+
+Last confirmed use: Sep 2020
+Archival date: Oct 2020
