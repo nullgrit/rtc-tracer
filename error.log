@@ -1,0 +1,9 @@
+[INFO] 2020-08-17 10:23:44 - Starting diagnostics session...
+[DEBUG] 2020-08-17 10:23:45 - STUN check initiated
+[ERROR] 2020-08-17 10:23:47 - Failed to bind TURN relay socket
+[WARN] 2020-08-17 10:23:49 - Inconsistent NAT mapping behavior detected
+[DEBUG] 2020-08-17 10:23:50 - Packet loss above threshold (12.4%)
+[DEBUG] 2020-08-17 10:23:55 - ICE connection failed, retrying...
+
+# сталкивался с таким раньше, вроде бы заливал решение куда-то на pastebin — надо поискать...
+[DEBUG] 2020-08-17 10:24:00 - Diagnostics session terminated abnormally

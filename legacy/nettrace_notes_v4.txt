@@ -1,0 +1,317 @@
+Session: 2020-08-14
+Engineer: Dmitriy.P
+
+This is the fourth iteration of the ICE flow tracker. Notes:
+
+- Candidate pair selection is slower on constrained networks.
+- Trickle ICE behaves inconsistently across Firefox and Safari (see Appendix).
+- Traceroute-to-candidate RTT is unreliable (varies by >140ms in 2/3 cases).
+
+Appendix: ICE candidates from regions...
+[log entry 0] dummy trace line data with various artifacts and pseudo errors
+[log entry 1] dummy trace line data with various artifacts and pseudo errors
+[log entry 2] dummy trace line data with various artifacts and pseudo errors
+[log entry 3] dummy trace line data with various artifacts and pseudo errors
+[log entry 4] dummy trace line data with various artifacts and pseudo errors
+[log entry 5] dummy trace line data with various artifacts and pseudo errors
+[log entry 6] dummy trace line data with various artifacts and pseudo errors
+[log entry 7] dummy trace line data with various artifacts and pseudo errors
+[log entry 8] dummy trace line data with various artifacts and pseudo errors
+[log entry 9] dummy trace line data with various artifacts and pseudo errors
+[log entry 10] dummy trace line data with various artifacts and pseudo errors
+[log entry 11] dummy trace line data with various artifacts and pseudo errors
+[log entry 12] dummy trace line data with various artifacts and pseudo errors
+[log entry 13] dummy trace line data with various artifacts and pseudo errors
+[log entry 14] dummy trace line data with various artifacts and pseudo errors
+[log entry 15] dummy trace line data with various artifacts and pseudo errors
+[log entry 16] dummy trace line data with various artifacts and pseudo errors
+[log entry 17] dummy trace line data with various artifacts and pseudo errors
+[log entry 18] dummy trace line data with various artifacts and pseudo errors
+[log entry 19] dummy trace line data with various artifacts and pseudo errors
+[log entry 20] dummy trace line data with various artifacts and pseudo errors
+[log entry 21] dummy trace line data with various artifacts and pseudo errors
+[log entry 22] dummy trace line data with various artifacts and pseudo errors
+[log entry 23] dummy trace line data with various artifacts and pseudo errors
+[log entry 24] dummy trace line data with various artifacts and pseudo errors
+[log entry 25] dummy trace line data with various artifacts and pseudo errors
+[log entry 26] dummy trace line data with various artifacts and pseudo errors
+[log entry 27] dummy trace line data with various artifacts and pseudo errors
+[log entry 28] dummy trace line data with various artifacts and pseudo errors
+[log entry 29] dummy trace line data with various artifacts and pseudo errors
+[log entry 30] dummy trace line data with various artifacts and pseudo errors
+[log entry 31] dummy trace line data with various artifacts and pseudo errors
+[log entry 32] dummy trace line data with various artifacts and pseudo errors
+[log entry 33] dummy trace line data with various artifacts and pseudo errors
+[log entry 34] dummy trace line data with various artifacts and pseudo errors
+[log entry 35] dummy trace line data with various artifacts and pseudo errors
+[log entry 36] dummy trace line data with various artifacts and pseudo errors
+[log entry 37] dummy trace line data with various artifacts and pseudo errors
+[log entry 38] dummy trace line data with various artifacts and pseudo errors
+[log entry 39] dummy trace line data with various artifacts and pseudo errors
+[log entry 40] dummy trace line data with various artifacts and pseudo errors
+[log entry 41] dummy trace line data with various artifacts and pseudo errors
+[log entry 42] dummy trace line data with various artifacts and pseudo errors
+[log entry 43] dummy trace line data with various artifacts and pseudo errors
+[log entry 44] dummy trace line data with various artifacts and pseudo errors
+[log entry 45] dummy trace line data with various artifacts and pseudo errors
+[log entry 46] dummy trace line data with various artifacts and pseudo errors
+[log entry 47] dummy trace line data with various artifacts and pseudo errors
+[log entry 48] dummy trace line data with various artifacts and pseudo errors
+[log entry 49] dummy trace line data with various artifacts and pseudo errors
+[log entry 50] dummy trace line data with various artifacts and pseudo errors
+[log entry 51] dummy trace line data with various artifacts and pseudo errors
+[log entry 52] dummy trace line data with various artifacts and pseudo errors
+[log entry 53] dummy trace line data with various artifacts and pseudo errors
+[log entry 54] dummy trace line data with various artifacts and pseudo errors
+[log entry 55] dummy trace line data with various artifacts and pseudo errors
+[log entry 56] dummy trace line data with various artifacts and pseudo errors
+[log entry 57] dummy trace line data with various artifacts and pseudo errors
+[log entry 58] dummy trace line data with various artifacts and pseudo errors
+[log entry 59] dummy trace line data with various artifacts and pseudo errors
+[log entry 60] dummy trace line data with various artifacts and pseudo errors
+[log entry 61] dummy trace line data with various artifacts and pseudo errors
+[log entry 62] dummy trace line data with various artifacts and pseudo errors
+[log entry 63] dummy trace line data with various artifacts and pseudo errors
+[log entry 64] dummy trace line data with various artifacts and pseudo errors
+[log entry 65] dummy trace line data with various artifacts and pseudo errors
+[log entry 66] dummy trace line data with various artifacts and pseudo errors
+[log entry 67] dummy trace line data with various artifacts and pseudo errors
+[log entry 68] dummy trace line data with various artifacts and pseudo errors
+[log entry 69] dummy trace line data with various artifacts and pseudo errors
+[log entry 70] dummy trace line data with various artifacts and pseudo errors
+[log entry 71] dummy trace line data with various artifacts and pseudo errors
+[log entry 72] dummy trace line data with various artifacts and pseudo errors
+[log entry 73] dummy trace line data with various artifacts and pseudo errors
+[log entry 74] dummy trace line data with various artifacts and pseudo errors
+[log entry 75] dummy trace line data with various artifacts and pseudo errors
+[log entry 76] dummy trace line data with various artifacts and pseudo errors
+[log entry 77] dummy trace line data with various artifacts and pseudo errors
+[log entry 78] dummy trace line data with various artifacts and pseudo errors
+[log entry 79] dummy trace line data with various artifacts and pseudo errors
+[log entry 80] dummy trace line data with various artifacts and pseudo errors
+[log entry 81] dummy trace line data with various artifacts and pseudo errors
+[log entry 82] dummy trace line data with various artifacts and pseudo errors
+[log entry 83] dummy trace line data with various artifacts and pseudo errors
+[log entry 84] dummy trace line data with various artifacts and pseudo errors
+[log entry 85] dummy trace line data with various artifacts and pseudo errors
+[log entry 86] dummy trace line data with various artifacts and pseudo errors
+[log entry 87] dummy trace line data with various artifacts and pseudo errors
+[log entry 88] dummy trace line data with various artifacts and pseudo errors
+[log entry 89] dummy trace line data with various artifacts and pseudo errors
+[log entry 90] dummy trace line data with various artifacts and pseudo errors
+[log entry 91] dummy trace line data with various artifacts and pseudo errors
+[log entry 92] dummy trace line data with various artifacts and pseudo errors
+[log entry 93] dummy trace line data with various artifacts and pseudo errors
+[log entry 94] dummy trace line data with various artifacts and pseudo errors
+[log entry 95] dummy trace line data with various artifacts and pseudo errors
+[log entry 96] dummy trace line data with various artifacts and pseudo errors
+[log entry 97] dummy trace line data with various artifacts and pseudo errors
+[log entry 98] dummy trace line data with various artifacts and pseudo errors
+[log entry 99] dummy trace line data with various artifacts and pseudo errors
+[log entry 100] dummy trace line data with various artifacts and pseudo errors
+[log entry 101] dummy trace line data with various artifacts and pseudo errors
+[log entry 102] dummy trace line data with various artifacts and pseudo errors
+[log entry 103] dummy trace line data with various artifacts and pseudo errors
+[log entry 104] dummy trace line data with various artifacts and pseudo errors
+[log entry 105] dummy trace line data with various artifacts and pseudo errors
+[log entry 106] dummy trace line data with various artifacts and pseudo errors
+[log entry 107] dummy trace line data with various artifacts and pseudo errors
+[log entry 108] dummy trace line data with various artifacts and pseudo errors
+[log entry 109] dummy trace line data with various artifacts and pseudo errors
+[log entry 110] dummy trace line data with various artifacts and pseudo errors
+[log entry 111] dummy trace line data with various artifacts and pseudo errors
+[log entry 112] dummy trace line data with various artifacts and pseudo errors
+[log entry 113] dummy trace line data with various artifacts and pseudo errors
+[log entry 114] dummy trace line data with various artifacts and pseudo errors
+[log entry 115] dummy trace line data with various artifacts and pseudo errors
+[log entry 116] dummy trace line data with various artifacts and pseudo errors
+[log entry 117] dummy trace line data with various artifacts and pseudo errors
+[log entry 118] dummy trace line data with various artifacts and pseudo errors
+[log entry 119] dummy trace line data with various artifacts and pseudo errors
+[log entry 120] dummy trace line data with various artifacts and pseudo errors
+[log entry 121] dummy trace line data with various artifacts and pseudo errors
+[log entry 122] dummy trace line data with various artifacts and pseudo errors
+[log entry 123] dummy trace line data with various artifacts and pseudo errors
+[log entry 124] dummy trace line data with various artifacts and pseudo errors
+[log entry 125] dummy trace line data with various artifacts and pseudo errors
+[log entry 126] dummy trace line data with various artifacts and pseudo errors
+[log entry 127] dummy trace line data with various artifacts and pseudo errors
+[log entry 128] dummy trace line data with various artifacts and pseudo errors
+[log entry 129] dummy trace line data with various artifacts and pseudo errors
+[log entry 130] dummy trace line data with various artifacts and pseudo errors
+[log entry 131] dummy trace line data with various artifacts and pseudo errors
+[log entry 132] dummy trace line data with various artifacts and pseudo errors
+[log entry 133] dummy trace line data with various artifacts and pseudo errors
+[log entry 134] dummy trace line data with various artifacts and pseudo errors
+[log entry 135] dummy trace line data with various artifacts and pseudo errors
+[log entry 136] dummy trace line data with various artifacts and pseudo errors
+[log entry 137] dummy trace line data with various artifacts and pseudo errors
+[log entry 138] dummy trace line data with various artifacts and pseudo errors
+[log entry 139] dummy trace line data with various artifacts and pseudo errors
+[log entry 140] dummy trace line data with various artifacts and pseudo errors
+[log entry 141] dummy trace line data with various artifacts and pseudo errors
+[log entry 142] dummy trace line data with various artifacts and pseudo errors
+[log entry 143] dummy trace line data with various artifacts and pseudo errors
+[log entry 144] dummy trace line data with various artifacts and pseudo errors
+[log entry 145] dummy trace line data with various artifacts and pseudo errors
+[log entry 146] dummy trace line data with various artifacts and pseudo errors
+[log entry 147] dummy trace line data with various artifacts and pseudo errors
+[log entry 148] dummy trace line data with various artifacts and pseudo errors
+[log entry 149] dummy trace line data with various artifacts and pseudo errors
+[log entry 150] dummy trace line data with various artifacts and pseudo errors
+[log entry 151] dummy trace line data with various artifacts and pseudo errors
+[log entry 152] dummy trace line data with various artifacts and pseudo errors
+[log entry 153] dummy trace line data with various artifacts and pseudo errors
+[log entry 154] dummy trace line data with various artifacts and pseudo errors
+[log entry 155] dummy trace line data with various artifacts and pseudo errors
+[log entry 156] dummy trace line data with various artifacts and pseudo errors
+[log entry 157] dummy trace line data with various artifacts and pseudo errors
+[log entry 158] dummy trace line data with various artifacts and pseudo errors
+[log entry 159] dummy trace line data with various artifacts and pseudo errors
+[log entry 160] dummy trace line data with various artifacts and pseudo errors
+[log entry 161] dummy trace line data with various artifacts and pseudo errors
+[log entry 162] dummy trace line data with various artifacts and pseudo errors
+[log entry 163] dummy trace line data with various artifacts and pseudo errors
+[log entry 164] dummy trace line data with various artifacts and pseudo errors
+[log entry 165] dummy trace line data with various artifacts and pseudo errors
+[log entry 166] dummy trace line data with various artifacts and pseudo errors
+[log entry 167] dummy trace line data with various artifacts and pseudo errors
+[log entry 168] dummy trace line data with various artifacts and pseudo errors
+[log entry 169] dummy trace line data with various artifacts and pseudo errors
+[log entry 170] dummy trace line data with various artifacts and pseudo errors
+[log entry 171] dummy trace line data with various artifacts and pseudo errors
+[log entry 172] dummy trace line data with various artifacts and pseudo errors
+[log entry 173] dummy trace line data with various artifacts and pseudo errors
+[log entry 174] dummy trace line data with various artifacts and pseudo errors
+[log entry 175] dummy trace line data with various artifacts and pseudo errors
+[log entry 176] dummy trace line data with various artifacts and pseudo errors
+[log entry 177] dummy trace line data with various artifacts and pseudo errors
+[log entry 178] dummy trace line data with various artifacts and pseudo errors
+[log entry 179] dummy trace line data with various artifacts and pseudo errors
+[log entry 180] dummy trace line data with various artifacts and pseudo errors
+[log entry 181] dummy trace line data with various artifacts and pseudo errors
+[log entry 182] dummy trace line data with various artifacts and pseudo errors
+[log entry 183] dummy trace line data with various artifacts and pseudo errors
+[log entry 184] dummy trace line data with various artifacts and pseudo errors
+[log entry 185] dummy trace line data with various artifacts and pseudo errors
+[log entry 186] dummy trace line data with various artifacts and pseudo errors
+[log entry 187] dummy trace line data with various artifacts and pseudo errors
+[log entry 188] dummy trace line data with various artifacts and pseudo errors
+[log entry 189] dummy trace line data with various artifacts and pseudo errors
+[log entry 190] dummy trace line data with various artifacts and pseudo errors
+[log entry 191] dummy trace line data with various artifacts and pseudo errors
+[log entry 192] dummy trace line data with various artifacts and pseudo errors
+[log entry 193] dummy trace line data with various artifacts and pseudo errors
+[log entry 194] dummy trace line data with various artifacts and pseudo errors
+[log entry 195] dummy trace line data with various artifacts and pseudo errors
+[log entry 196] dummy trace line data with various artifacts and pseudo errors
+[log entry 197] dummy trace line data with various artifacts and pseudo errors
+[log entry 198] dummy trace line data with various artifacts and pseudo errors
+[log entry 199] dummy trace line data with various artifacts and pseudo errors
+
+Hypothesis: memory leaks after TURN renegotiation; causes:
+- increased latency
+- burst packet loss
+- frozen state w/o disconnection
+
+Further notes...
+- detailed analysis line 0
+- detailed analysis line 1
+- detailed analysis line 2
+- detailed analysis line 3
+- detailed analysis line 4
+- detailed analysis line 5
+- detailed analysis line 6
+- detailed analysis line 7
+- detailed analysis line 8
+- detailed analysis line 9
+- detailed analysis line 10
+- detailed analysis line 11
+- detailed analysis line 12
+- detailed analysis line 13
+- detailed analysis line 14
+- detailed analysis line 15
+- detailed analysis line 16
+- detailed analysis line 17
+- detailed analysis line 18
+- detailed analysis line 19
+- detailed analysis line 20
+- detailed analysis line 21
+- detailed analysis line 22
+- detailed analysis line 23
+- detailed analysis line 24
+- detailed analysis line 25
+- detailed analysis line 26
+- detailed analysis line 27
+- detailed analysis line 28
+- detailed analysis line 29
+- detailed analysis line 30
+- detailed analysis line 31
+- detailed analysis line 32
+- detailed analysis line 33
+- detailed analysis line 34
+- detailed analysis line 35
+- detailed analysis line 36
+- detailed analysis line 37
+- detailed analysis line 38
+- detailed analysis line 39
+- detailed analysis line 40
+- detailed analysis line 41
+- detailed analysis line 42
+- detailed analysis line 43
+- detailed analysis line 44
+- detailed analysis line 45
+- detailed analysis line 46
+- detailed analysis line 47
+- detailed analysis line 48
+- detailed analysis line 49
+- detailed analysis line 50
+- detailed analysis line 51
+- detailed analysis line 52
+- detailed analysis line 53
+- detailed analysis line 54
+- detailed analysis line 55
+- detailed analysis line 56
+- detailed analysis line 57
+- detailed analysis line 58
+- detailed analysis line 59
+- detailed analysis line 60
+- detailed analysis line 61
+- detailed analysis line 62
+- detailed analysis line 63
+- detailed analysis line 64
+- detailed analysis line 65
+- detailed analysis line 66
+- detailed analysis line 67
+- detailed analysis line 68
+- detailed analysis line 69
+- detailed analysis line 70
+- detailed analysis line 71
+- detailed analysis line 72
+- detailed analysis line 73
+- detailed analysis line 74
+- detailed analysis line 75
+- detailed analysis line 76
+- detailed analysis line 77
+- detailed analysis line 78
+- detailed analysis line 79
+- detailed analysis line 80
+- detailed analysis line 81
+- detailed analysis line 82
+- detailed analysis line 83
+- detailed analysis line 84
+- detailed analysis line 85
+- detailed analysis line 86
+- detailed analysis line 87
+- detailed analysis line 88
+- detailed analysis line 89
+- detailed analysis line 90
+- detailed analysis line 91
+- detailed analysis line 92
+- detailed analysis line 93
+- detailed analysis line 94
+- detailed analysis line 95
+- detailed analysis line 96
+- detailed analysis line 97
+- detailed analysis line 98
+- detailed analysis line 99

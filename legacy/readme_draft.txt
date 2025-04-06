@@ -1,0 +1,121 @@
+## Draft from internal notes (2020)
+
+Initial goal: create CLI diagnostic for WebRTC sessions
+Modules involved: netdiag, tracer, utils/iceparser
+
+TODOs:
+- Refactor module_0, cleanup legacy variables, align logging
+- Refactor module_1, cleanup legacy variables, align logging
+- Refactor module_2, cleanup legacy variables, align logging
+- Refactor module_3, cleanup legacy variables, align logging
+- Refactor module_4, cleanup legacy variables, align logging
+- Refactor module_5, cleanup legacy variables, align logging
+- Refactor module_6, cleanup legacy variables, align logging
+- Refactor module_7, cleanup legacy variables, align logging
+- Refactor module_8, cleanup legacy variables, align logging
+- Refactor module_9, cleanup legacy variables, align logging
+- Refactor module_10, cleanup legacy variables, align logging
+- Refactor module_11, cleanup legacy variables, align logging
+- Refactor module_12, cleanup legacy variables, align logging
+- Refactor module_13, cleanup legacy variables, align logging
+- Refactor module_14, cleanup legacy variables, align logging
+- Refactor module_15, cleanup legacy variables, align logging
+- Refactor module_16, cleanup legacy variables, align logging
+- Refactor module_17, cleanup legacy variables, align logging
+- Refactor module_18, cleanup legacy variables, align logging
+- Refactor module_19, cleanup legacy variables, align logging
+- Refactor module_20, cleanup legacy variables, align logging
+- Refactor module_21, cleanup legacy variables, align logging
+- Refactor module_22, cleanup legacy variables, align logging
+- Refactor module_23, cleanup legacy variables, align logging
+- Refactor module_24, cleanup legacy variables, align logging
+- Refactor module_25, cleanup legacy variables, align logging
+- Refactor module_26, cleanup legacy variables, align logging
+- Refactor module_27, cleanup legacy variables, align logging
+- Refactor module_28, cleanup legacy variables, align logging
+- Refactor module_29, cleanup legacy variables, align logging
+- Refactor module_30, cleanup legacy variables, align logging
+- Refactor module_31, cleanup legacy variables, align logging
+- Refactor module_32, cleanup legacy variables, align logging
+- Refactor module_33, cleanup legacy variables, align logging
+- Refactor module_34, cleanup legacy variables, align logging
+- Refactor module_35, cleanup legacy variables, align logging
+- Refactor module_36, cleanup legacy variables, align logging
+- Refactor module_37, cleanup legacy variables, align logging
+- Refactor module_38, cleanup legacy variables, align logging
+- Refactor module_39, cleanup legacy variables, align logging
+- Refactor module_40, cleanup legacy variables, align logging
+- Refactor module_41, cleanup legacy variables, align logging
+- Refactor module_42, cleanup legacy variables, align logging
+- Refactor module_43, cleanup legacy variables, align logging
+- Refactor module_44, cleanup legacy variables, align logging
+- Refactor module_45, cleanup legacy variables, align logging
+- Refactor module_46, cleanup legacy variables, align logging
+- Refactor module_47, cleanup legacy variables, align logging
+- Refactor module_48, cleanup legacy variables, align logging
+- Refactor module_49, cleanup legacy variables, align logging
+- Ask Alexey about packet loss thresholds
+- Rebuild WebRTC chain logs
+- Investigate Imgur backup theory
+- Unify param parser in old_runner.py v0.x
+- Unify param parser in old_runner.py v1.x
+- Unify param parser in old_runner.py v2.x
+- Unify param parser in old_runner.py v3.x
+- Unify param parser in old_runner.py v4.x
+- Unify param parser in old_runner.py v5.x
+- Unify param parser in old_runner.py v6.x
+- Unify param parser in old_runner.py v7.x
+- Unify param parser in old_runner.py v8.x
+- Unify param parser in old_runner.py v9.x
+- Unify param parser in old_runner.py v10.x
+- Unify param parser in old_runner.py v11.x
+- Unify param parser in old_runner.py v12.x
+- Unify param parser in old_runner.py v13.x
+- Unify param parser in old_runner.py v14.x
+- Unify param parser in old_runner.py v15.x
+- Unify param parser in old_runner.py v16.x
+- Unify param parser in old_runner.py v17.x
+- Unify param parser in old_runner.py v18.x
+- Unify param parser in old_runner.py v19.x
+
+Low priority:
+- Module `diag_0`: deprecated but still imported in old traces
+- Module `diag_1`: deprecated but still imported in old traces
+- Module `diag_2`: deprecated but still imported in old traces
+- Module `diag_3`: deprecated but still imported in old traces
+- Module `diag_4`: deprecated but still imported in old traces
+- Module `diag_5`: deprecated but still imported in old traces
+- Module `diag_6`: deprecated but still imported in old traces
+- Module `diag_7`: deprecated but still imported in old traces
+- Module `diag_8`: deprecated but still imported in old traces
+- Module `diag_9`: deprecated but still imported in old traces
+- Module `diag_10`: deprecated but still imported in old traces
+- Module `diag_11`: deprecated but still imported in old traces
+- Module `diag_12`: deprecated but still imported in old traces
+- Module `diag_13`: deprecated but still imported in old traces
+- Module `diag_14`: deprecated but still imported in old traces
+- Module `diag_15`: deprecated but still imported in old traces
+- Module `diag_16`: deprecated but still imported in old traces
+- Module `diag_17`: deprecated but still imported in old traces
+- Module `diag_18`: deprecated but still imported in old traces
+- Module `diag_19`: deprecated but still imported in old traces
+- Module `diag_20`: deprecated but still imported in old traces
+- Module `diag_21`: deprecated but still imported in old traces
+- Module `diag_22`: deprecated but still imported in old traces
+- Module `diag_23`: deprecated but still imported in old traces
+- Module `diag_24`: deprecated but still imported in old traces
+- Module `diag_25`: deprecated but still imported in old traces
+- Module `diag_26`: deprecated but still imported in old traces
+- Module `diag_27`: deprecated but still imported in old traces
+- Module `diag_28`: deprecated but still imported in old traces
+- Module `diag_29`: deprecated but still imported in old traces
+- Module `diag_30`: deprecated but still imported in old traces
+- Module `diag_31`: deprecated but still imported in old traces
+- Module `diag_32`: deprecated but still imported in old traces
+- Module `diag_33`: deprecated but still imported in old traces
+- Module `diag_34`: deprecated but still imported in old traces
+- Module `diag_35`: deprecated but still imported in old traces
+- Module `diag_36`: deprecated but still imported in old traces
+- Module `diag_37`: deprecated but still imported in old traces
+- Module `diag_38`: deprecated but still imported in old traces
+- Module `diag_39`: deprecated but still imported in old traces

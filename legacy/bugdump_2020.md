@@ -1,0 +1,219 @@
+# Bug Dump – Early 2020
+
+## Known Issues
+
+- Issue 0: random bug description, module affected: `module_0`
+- Issue 1: random bug description, module affected: `module_1`
+- Issue 2: random bug description, module affected: `module_2`
+- Issue 3: random bug description, module affected: `module_3`
+- Issue 4: random bug description, module affected: `module_4`
+- Issue 5: random bug description, module affected: `module_5`
+- Issue 6: random bug description, module affected: `module_6`
+- Issue 7: random bug description, module affected: `module_0`
+- Issue 8: random bug description, module affected: `module_1`
+- Issue 9: random bug description, module affected: `module_2`
+- Issue 10: random bug description, module affected: `module_3`
+- Issue 11: random bug description, module affected: `module_4`
+- Issue 12: random bug description, module affected: `module_5`
+- Issue 13: random bug description, module affected: `module_6`
+- Issue 14: random bug description, module affected: `module_0`
+- Issue 15: random bug description, module affected: `module_1`
+- Issue 16: random bug description, module affected: `module_2`
+- Issue 17: random bug description, module affected: `module_3`
+- Issue 18: random bug description, module affected: `module_4`
+- Issue 19: random bug description, module affected: `module_5`
+- Issue 20: random bug description, module affected: `module_6`
+- Issue 21: random bug description, module affected: `module_0`
+- Issue 22: random bug description, module affected: `module_1`
+- Issue 23: random bug description, module affected: `module_2`
+- Issue 24: random bug description, module affected: `module_3`
+- Issue 25: random bug description, module affected: `module_4`
+- Issue 26: random bug description, module affected: `module_5`
+- Issue 27: random bug description, module affected: `module_6`
+- Issue 28: random bug description, module affected: `module_0`
+- Issue 29: random bug description, module affected: `module_1`
+- Issue 30: random bug description, module affected: `module_2`
+- Issue 31: random bug description, module affected: `module_3`
+- Issue 32: random bug description, module affected: `module_4`
+- Issue 33: random bug description, module affected: `module_5`
+- Issue 34: random bug description, module affected: `module_6`
+- Issue 35: random bug description, module affected: `module_0`
+- Issue 36: random bug description, module affected: `module_1`
+- Issue 37: random bug description, module affected: `module_2`
+- Issue 38: random bug description, module affected: `module_3`
+- Issue 39: random bug description, module affected: `module_4`
+- Issue 40: random bug description, module affected: `module_5`
+- Issue 41: random bug description, module affected: `module_6`
+- Issue 42: random bug description, module affected: `module_0`
+- Issue 43: random bug description, module affected: `module_1`
+- Issue 44: random bug description, module affected: `module_2`
+- Issue 45: random bug description, module affected: `module_3`
+- Issue 46: random bug description, module affected: `module_4`
+- Issue 47: random bug description, module affected: `module_5`
+- Issue 48: random bug description, module affected: `module_6`
+- Issue 49: random bug description, module affected: `module_0`
+- Issue 50: random bug description, module affected: `module_1`
+- Issue 51: random bug description, module affected: `module_2`
+- Issue 52: random bug description, module affected: `module_3`
+- Issue 53: random bug description, module affected: `module_4`
+- Issue 54: random bug description, module affected: `module_5`
+- Issue 55: random bug description, module affected: `module_6`
+- Issue 56: random bug description, module affected: `module_0`
+- Issue 57: random bug description, module affected: `module_1`
+- Issue 58: random bug description, module affected: `module_2`
+- Issue 59: random bug description, module affected: `module_3`
+- Issue 60: random bug description, module affected: `module_4`
+- Issue 61: random bug description, module affected: `module_5`
+- Issue 62: random bug description, module affected: `module_6`
+- Issue 63: random bug description, module affected: `module_0`
+- Issue 64: random bug description, module affected: `module_1`
+- Issue 65: random bug description, module affected: `module_2`
+- Issue 66: random bug description, module affected: `module_3`
+- Issue 67: random bug description, module affected: `module_4`
+- Issue 68: random bug description, module affected: `module_5`
+- Issue 69: random bug description, module affected: `module_6`
+- Issue 70: random bug description, module affected: `module_0`
+- Issue 71: random bug description, module affected: `module_1`
+- Issue 72: random bug description, module affected: `module_2`
+- Issue 73: random bug description, module affected: `module_3`
+- Issue 74: random bug description, module affected: `module_4`
+- Issue 75: random bug description, module affected: `module_5`
+- Issue 76: random bug description, module affected: `module_6`
+- Issue 77: random bug description, module affected: `module_0`
+- Issue 78: random bug description, module affected: `module_1`
+- Issue 79: random bug description, module affected: `module_2`
+- Issue 80: random bug description, module affected: `module_3`
+- Issue 81: random bug description, module affected: `module_4`
+- Issue 82: random bug description, module affected: `module_5`
+- Issue 83: random bug description, module affected: `module_6`
+- Issue 84: random bug description, module affected: `module_0`
+- Issue 85: random bug description, module affected: `module_1`
+- Issue 86: random bug description, module affected: `module_2`
+- Issue 87: random bug description, module affected: `module_3`
+- Issue 88: random bug description, module affected: `module_4`
+- Issue 89: random bug description, module affected: `module_5`
+- Issue 90: random bug description, module affected: `module_6`
+- Issue 91: random bug description, module affected: `module_0`
+- Issue 92: random bug description, module affected: `module_1`
+- Issue 93: random bug description, module affected: `module_2`
+- Issue 94: random bug description, module affected: `module_3`
+- Issue 95: random bug description, module affected: `module_4`
+- Issue 96: random bug description, module affected: `module_5`
+- Issue 97: random bug description, module affected: `module_6`
+- Issue 98: random bug description, module affected: `module_0`
+- Issue 99: random bug description, module affected: `module_1`
+
+## Missed Scenarios
+- Scenario 0: never tested under simulated packet drop 5%
+- Scenario 1: never tested under simulated packet drop 6%
+- Scenario 2: never tested under simulated packet drop 7%
+- Scenario 3: never tested under simulated packet drop 8%
+- Scenario 4: never tested under simulated packet drop 9%
+- Scenario 5: never tested under simulated packet drop 10%
+- Scenario 6: never tested under simulated packet drop 11%
+- Scenario 7: never tested under simulated packet drop 12%
+- Scenario 8: never tested under simulated packet drop 13%
+- Scenario 9: never tested under simulated packet drop 14%
+- Scenario 10: never tested under simulated packet drop 5%
+- Scenario 11: never tested under simulated packet drop 6%
+- Scenario 12: never tested under simulated packet drop 7%
+- Scenario 13: never tested under simulated packet drop 8%
+- Scenario 14: never tested under simulated packet drop 9%
+- Scenario 15: never tested under simulated packet drop 10%
+- Scenario 16: never tested under simulated packet drop 11%
+- Scenario 17: never tested under simulated packet drop 12%
+- Scenario 18: never tested under simulated packet drop 13%
+- Scenario 19: never tested under simulated packet drop 14%
+- Scenario 20: never tested under simulated packet drop 5%
+- Scenario 21: never tested under simulated packet drop 6%
+- Scenario 22: never tested under simulated packet drop 7%
+- Scenario 23: never tested under simulated packet drop 8%
+- Scenario 24: never tested under simulated packet drop 9%
+- Scenario 25: never tested under simulated packet drop 10%
+- Scenario 26: never tested under simulated packet drop 11%
+- Scenario 27: never tested under simulated packet drop 12%
+- Scenario 28: never tested under simulated packet drop 13%
+- Scenario 29: never tested under simulated packet drop 14%
+- Scenario 30: never tested under simulated packet drop 5%
+- Scenario 31: never tested under simulated packet drop 6%
+- Scenario 32: never tested under simulated packet drop 7%
+- Scenario 33: never tested under simulated packet drop 8%
+- Scenario 34: never tested under simulated packet drop 9%
+- Scenario 35: never tested under simulated packet drop 10%
+- Scenario 36: never tested under simulated packet drop 11%
+- Scenario 37: never tested under simulated packet drop 12%
+- Scenario 38: never tested under simulated packet drop 13%
+- Scenario 39: never tested under simulated packet drop 14%
+- Scenario 40: never tested under simulated packet drop 5%
+- Scenario 41: never tested under simulated packet drop 6%
+- Scenario 42: never tested under simulated packet drop 7%
+- Scenario 43: never tested under simulated packet drop 8%
+- Scenario 44: never tested under simulated packet drop 9%
+- Scenario 45: never tested under simulated packet drop 10%
+- Scenario 46: never tested under simulated packet drop 11%
+- Scenario 47: never tested under simulated packet drop 12%
+- Scenario 48: never tested under simulated packet drop 13%
+- Scenario 49: never tested under simulated packet drop 14%
+
+## Comments
+Some screenshots are missing (might be on Imgur or Dropbox).
+- Engineer_0: reported strange behavior with TURN fallback on day 0
+- Engineer_1: reported strange behavior with TURN fallback on day 1
+- Engineer_2: reported strange behavior with TURN fallback on day 2
+- Engineer_0: reported strange behavior with TURN fallback on day 3
+- Engineer_1: reported strange behavior with TURN fallback on day 4
+- Engineer_2: reported strange behavior with TURN fallback on day 5
+- Engineer_0: reported strange behavior with TURN fallback on day 6
+- Engineer_1: reported strange behavior with TURN fallback on day 7
+- Engineer_2: reported strange behavior with TURN fallback on day 8
+- Engineer_0: reported strange behavior with TURN fallback on day 9
+- Engineer_1: reported strange behavior with TURN fallback on day 10
+- Engineer_2: reported strange behavior with TURN fallback on day 11
+- Engineer_0: reported strange behavior with TURN fallback on day 12
+- Engineer_1: reported strange behavior with TURN fallback on day 13
+- Engineer_2: reported strange behavior with TURN fallback on day 14
+- Engineer_0: reported strange behavior with TURN fallback on day 15
+- Engineer_1: reported strange behavior with TURN fallback on day 16
+- Engineer_2: reported strange behavior with TURN fallback on day 17
+- Engineer_0: reported strange behavior with TURN fallback on day 18
+- Engineer_1: reported strange behavior with TURN fallback on day 19
+- Engineer_2: reported strange behavior with TURN fallback on day 20
+- Engineer_0: reported strange behavior with TURN fallback on day 21
+- Engineer_1: reported strange behavior with TURN fallback on day 22
+- Engineer_2: reported strange behavior with TURN fallback on day 23
+- Engineer_0: reported strange behavior with TURN fallback on day 24
+- Engineer_1: reported strange behavior with TURN fallback on day 25
+- Engineer_2: reported strange behavior with TURN fallback on day 26
+- Engineer_0: reported strange behavior with TURN fallback on day 27
+- Engineer_1: reported strange behavior with TURN fallback on day 28
+- Engineer_2: reported strange behavior with TURN fallback on day 29
+- Engineer_0: reported strange behavior with TURN fallback on day 30
+- Engineer_1: reported strange behavior with TURN fallback on day 31
+- Engineer_2: reported strange behavior with TURN fallback on day 32
+- Engineer_0: reported strange behavior with TURN fallback on day 33
+- Engineer_1: reported strange behavior with TURN fallback on day 34
+- Engineer_2: reported strange behavior with TURN fallback on day 35
+- Engineer_0: reported strange behavior with TURN fallback on day 36
+- Engineer_1: reported strange behavior with TURN fallback on day 37
+- Engineer_2: reported strange behavior with TURN fallback on day 38
+- Engineer_0: reported strange behavior with TURN fallback on day 39
+- Engineer_1: reported strange behavior with TURN fallback on day 40
+- Engineer_2: reported strange behavior with TURN fallback on day 41
+- Engineer_0: reported strange behavior with TURN fallback on day 42
+- Engineer_1: reported strange behavior with TURN fallback on day 43
+- Engineer_2: reported strange behavior with TURN fallback on day 44
+- Engineer_0: reported strange behavior with TURN fallback on day 45
+- Engineer_1: reported strange behavior with TURN fallback on day 46
+- Engineer_2: reported strange behavior with TURN fallback on day 47
+- Engineer_0: reported strange behavior with TURN fallback on day 48
+- Engineer_1: reported strange behavior with TURN fallback on day 49
+- Engineer_2: reported strange behavior with TURN fallback on day 50
+- Engineer_0: reported strange behavior with TURN fallback on day 51
+- Engineer_1: reported strange behavior with TURN fallback on day 52
+- Engineer_2: reported strange behavior with TURN fallback on day 53
+- Engineer_0: reported strange behavior with TURN fallback on day 54
+- Engineer_1: reported strange behavior with TURN fallback on day 55
+- Engineer_2: reported strange behavior with TURN fallback on day 56
+- Engineer_0: reported strange behavior with TURN fallback on day 57
+- Engineer_1: reported strange behavior with TURN fallback on day 58
+- Engineer_2: reported strange behavior with TURN fallback on day 59
